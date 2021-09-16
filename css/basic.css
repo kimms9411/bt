@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+body { font-family:; background:; font-size:;}
+img { max-width:100%; }
+
+header { background:url('../img/home2.jpg') no-repeat center top; background-size:cover; padding:50px 0 100px; color:#fff; }
+
+header h2 { padding-top:70px; font-size:60px; text-shadow:0 0 5px rgba(0,0,0,0.8)}
+header h4 { font-size:18px; color:#f1f1f1 }
+
+.outro { margin-top:100px; }
+.imac { margin-top:-35px; width:70%; }
+.outro_bottom { padding:9.5vw 0;}
+.outro_bottom div { position:relative; }
+.keyboard { position:absolute; left:0; top:-38px; } 
+.mouse { position:absolute; right:22px; top:-65px; }
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+.footer {
+    background-color: #062033;
+    color: #fff; font-size: 14px;
+}
+.container-fluid article section, .footer {
+    padding: 70px 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+#footer .footer-single .logo {
+    margin-bottom: 15px;
+}
+#navigation #logo a, #footer .footer-single .logo {
+    width: 103px;
+    height: 50px;
+    background: url("../img/footer.png") no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+    color: #fff;
+    float: left;
+}
+@media (max-width:768px) {    
+    header { padding-bottom:50px; } 
+    header h2 { padding-top:70px; font-size:40px; text-shadow:0 0 3px rgba(0,0,0,0.5)}
+    header h4 { font-size:12px; color:#f1f1f1 }
+
+    .responsive { padding:20px 0 120px;}
+
+    .outro { margin-top:0; }
+    .outro_bottom { padding:30px 0 50px;}
+    .outro_bottom h2 { font-size:24px; }
+}
+
+
